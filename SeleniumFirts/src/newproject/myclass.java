@@ -25,8 +25,8 @@ public class myclass {
         driver.quit();
         System.out.println("Working Directory = " +
                 System.getProperty("user.dir"));
-//        Path currentDir = Paths.get(".");
-//        System.out.println(currentDir.toAbsolutePath().getParent().getParent() + "/Libraries");
+        Path currentDir = Paths.get(".");
+        System.out.println(currentDir.toAbsolutePath().getParent().getParent() + "/Libraries");
        
     }
 
